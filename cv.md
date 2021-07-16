@@ -20,6 +20,9 @@ My name Yura, I'm 28 age, I'm from Minsk. I have no idea where JS will take me, 
 * HTML
 * CSS
 * JS
+* TypeScript
+* React
+* GitHub
 
  ***
 ### *An example of my code Codewars*
@@ -33,6 +36,8 @@ function solution(str){
 
  ***
 ### *Work experience*
+
+no experience work in IT
 
  ***
 ### *Education*
