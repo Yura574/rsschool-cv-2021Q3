@@ -1,5 +1,7 @@
 # *Sergeev Yura*
 
+![avatar](photo/avatar.jpg)
+
  ***
 ### *Contacts*
 
