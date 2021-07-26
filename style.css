@@ -1,0 +1,237 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.wrapper {
+    display: flex;
+    background-color: blueviolet;
+    align-items: stretch;
+    min-height: 90vh;
+    flex-wrap: wrap;
+    width: 1200px;
+    align-content: center;
+    margin: auto;
+}
+
+.main-aside {
+    display: flex;
+    word-break: break-word;
+    margin: 10px 5px 10px 10px;
+    padding: 10px;
+    align-items: stretch;
+    width: 40%;
+    background: #ff0000;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(left, #ff60ff, #ffcfcf);
+    flex-direction: column;
+
+}
+
+.right {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+    width: 60%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+h5 {
+    margin: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aside-information {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+.aside-education {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.aside-experience {
+    display: flex;
+    justify-content: center;
+}
+
+
+.li-contacts-telegram {
+    list-style-image: url("./photo/telegram.jpg");
+}
+
+.li-contacts-git {
+    list-style-image: url("./photo/git.png");
+}
+
+.li-contacts-discord {
+    list-style-image: url("./photo/discord.png");
+}
+
+.li-contacts-link {
+    list-style-image: url("./photo/linkedin.png");
+}
+
+.li-contacts-gmail {
+    list-style-image: url("./photo/email.png");
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.experience {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contacts-div {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Narrow", "sans-serif";
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.education-div {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Narrow", "sans-serif";
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.experience-div {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Narrow", "sans-serif";
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.li-education-bntu {
+    list-style-image: url("./photo/bntu.png");
+    font-size: 20px;
+    padding: 5px;
+}
+
+.li-education-itInc {
+    list-style-image: url("./photo/it-incubator.jpg");
+    font-size: 20px;
+    padding: 5px;
+}
+
+a { text-decoration: none; }
+
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.skills-text { min-width: 100px; }
+.progress {
+    display: flex;
+    height: 10px;
+    max-width: 225px;
+    background-color: rgba(232,231,39,0.79);
+    border-radius: 10px;
+}
+.skills-progress.progress{
+    flex-basis:325px;
+
+}
+.my-progress {
+    background-color:   rgba(232,88,71,0.79);
+    border-radius: 10px;
+    }
+.skills-html .my-progress { flex-basis:50%; }
+.skills-javascript .my-progress { flex-basis:25%; }
+.skills-git .my-progress { flex-basis:30%; }
+
+.skills-react .my-progress { flex-basis:15%; }
+
+.skills-CSS .my-progress { flex-basis:40%; }
+.skills-english .my-progress { flex-basis:15%; }
+
+.img-skills {
+    width: 70px;
+    height: 70px;
+}
+
+.example-codewars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.example {
+    background-color: rgba(49,146,129,0.31);
+    width: 35%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+.inform {
+    text-indent: 20px;
+    font-family: "Arial Narrow", "sans-serif";
+    font-size: 20px;
+}
