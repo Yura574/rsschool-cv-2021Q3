@@ -2,82 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>CV</title>
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="body-style">
-<div style="width: 100%">
-    <header>
-        <div class="header-flex-item">
+<body class="body">
+
+<main class="wrapper">
+    <div class="main-aside">
+        <header class="header-items">
             <div class="item-1">
-                <img src="photo/avatar1.jpg" style="border-radius: 50%" alt="avatar"/>
+                <img src="photo/avatar1.jpg" class="avatar" style="border-radius: 50%" alt="avatar"/>
             </div>
             <div class="item-2">
                 <h1>Sergeev Yura </h1>
-                <h5 style="width:300px">I'm 28 age, I'm from Minsk. I have no idea where JS will take me, but it will
-                    be an interesting road full of interesting tasks and difficulties
-                </h5>
+                <h3>Trainee Front-End Developer </h3>
             </div>
-        </div>
-    </header>
-    <main class="main-flex">
-        <aside class="main-aside">
-            <div>
-                <h2>Personal information</h2>
-                <h3>Contacts:</h3>
 
-                <ul class="main-flex-contact">
-                    <li>* `telegram`: +375445742248</li>
-                    <li>* `discord`: Yura#4815</li>
-                    <li>* `github`: [Yura574](https://github.com/Yura574)</li>
-                    <li>* `E-mail`: yura5742248@gmail.com</li>
-                    <li>* `<a href="https://www.linkedin.com/in/yura-sergeev-b299a4205/">LinkedIn</a>`:</li>
+        </header>
+        <section>
+            <div class="aside-information">
+                <h3>Personal information:</h3>
+            </div>
+            <div class="contacts-div">
+                <ul class="contacts">
+                    <li class="li-contacts-telegram"><b> telegram: +375445742248</b></li>
+                    <li class="li-contacts-discord"><b> discord: Yura#4815 </b></li>
+                    <li class="li-contacts-git"><b> github: <a href=" https://github.com/Yura574">[Yura574]</a> </b>
+                    </li>
+                    <li class="li-contacts-gmail"><b> E-mail: yura5742248@gmail.com </b></li>
+                    <li class="li-contacts-link"><b> LinkedIn:
+                        <a href="https://www.linkedin.com/in/yura-sergeev-b299a4205/">Sergeev Yura</a></b></li>
                 </ul>
             </div>
-            <div>
+            <div class="aside-education">
                 <h3>Education:</h3>
-                <ul>
-                    <li>* Belarusian National Technical University</li>
-                    <li>* IT-Incubator</li>
+            </div>
+            <div class="education-div">
+                <ul class="education">
+                    <li class="li-education-bntu"><b>Belarusian National Technical University </b></li>
+                    <li class="li-education-itInc"><b>IT-Incubator </b></li>
                 </ul>
             </div>
-            <div>
+            <div class="aside-experience">
                 <h3>Work experience:</h3>
-                <div>no experience work in IT</div>
             </div>
-        </aside>
-        <section class="main-section">
-            <h3>Skills:</h3>
-            <ul>
-                <li>* HTML</li>
-                <li>* CSS</li>
-                <li>* JS</li>
-                <li>* TypeScript</li>
-                <li>* React</li>
-                <li> * GitHub</li>
-            </ul>
-            <h3>An example of my code Codewars:</h3>
-            <div>
-                function solution(str){
-                <br>return str.split('').reverse().join('');
-                <br>}
+            <div class="experience-div">
+                <div class="experience"><b>No experience work in IT</b></div>
             </div>
-            <div>
-                <h3>Languages</h3>
-                <div> English - A0, but I very try</div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer">
-            <a href="https://app.rs.school/"><img src="https://rs.school/images/rs_school_js.svg" style="width: 150px" alt="RS school"></a>
-            <h2>2021</h2>
-            <a href="https://github.com/Yura574"><img src="photo/git.jpg"
-                 style="width: 150px; height:70px" alt="git"/></a>
-        </div>
-    </footer>
-</div>
-</body>
 
+        </section>
+    </div>
+    <aside class="right">
+        <div class="right-section">
+            <h2> About myself: </h2>
+        </div>
+        <div class="inform">
+            I'm 28 years. I'm Electrical engineer, I have been working in the area of technical security for 5 years.
+            My work taught me not to be afraid of difficulties and to look for solutions and always learn new things.
+            I liked setting up local networks more, but between the system administrator and the programmer, I chose to
+            program.
+        </div>
+        <div style="margin-top: 50px">
+            <h2>Skills</h2>
+        </div>
+        <div>
+            <ul>
+                <li class="skills skills-html">
+                    <span class="skills-text "><img src="photo/html.png" class="img-skills" alt="html"></span>
+                    <div class="skills-progress progress">
+                        <span class="my-progress"></span>
+                        <span></span>
+                    </div>
+                </li>
+                <li class="skills skills-CSS">
+                    <span class="skills-text "><img src="photo/css.png" class="img-skills" alt="html"></span>
+                    <div class="skills-progress progress">
+                        <span class="my-progress"></span>
+
+                    </div>
+                </li>
+                <li class="skills skills-javascript">
+                    <span class="skills-text "><img src="photo/js.png" class="img-skills" alt="js"> </span>
+                    <div class="skills-progress progress">
+                        <span class="my-progress"></span>
+                    </div>
+                </li>
+                <li class="skills skills-react">
+                    <span class="skills-text "><img src="photo/React.jpg" class="img-skills" alt="react"></span>
+                    <div class="skills-progress progress">
+                        <span class="my-progress"></span>
+                    </div>
+                </li>
+                <li class="skills skills-git">
+                    <span class="skills-text "><img src="photo/git2.png" class="img-skills" alt="git"></span>
+                    <div class="skills-progress progress">
+                        <span class="my-progress"></span>
+                    </div>
+                </li>
+                <li class="skills skills-git">
+                    <span class="skills-text "><img src="photo/english.jpg" class="img-skills" alt="english"></span>
+                    <div class="skills-progress progress">
+                        <span class="my-progress"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>An example of my code Codewars</h2>
+        </div>
+        <div class="example-codewars">
+            <div class="example">
+                function solution(str){<br>
+                return str.split('').reverse().join('');<br>
+                }
+            </div>
+        </div>
+
+    </aside>
+
+</main>
+<footer>
+    <div class="footer">
+        <a href="https://app.rs.school/"><img src="https://rs.school/images/rs_school_js.svg" style="width: 150px"
+                                              alt="RS school"></a>
+        <h2>2021</h2>
+        <a href="https://github.com/Yura574"><img src="photo/git.jpg"
+                                                  style="width: 150px; height:70px" alt="git"/></a>
+    </div>
+</footer>
+
+</body>
 </html>
